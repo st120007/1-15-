@@ -22,8 +22,7 @@ int main()
         x = x / 10;
         i++;
     }
-    i--;
-    for (i = i; i > 0; i--)
+    for (i = i--; i > 0; i--)
     {
         cout << arr[i] << endl;
     }
